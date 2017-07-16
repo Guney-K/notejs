@@ -1,0 +1,25 @@
+{
+  "name": "notejs",
+  "version": "1.0.0",
+  "description": "Note web app in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guney-K/notejs.git"
+  },
+  "author": "Guney-K & Enderox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guney-K/notejs/issues"
+  },
+  "homepage": "https://github.com/Guney-K/notejs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
+    "mustache-express": "^1.2.5"
+  }
+}
