@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{pageTitle}}</title>
+
+	{{>global_partials/header/head_meta}}
+    {{>global_partials/header/head_scripts}}
+</head>
+
+<body>
+    {{>global_partials/body/prepend_injections}}

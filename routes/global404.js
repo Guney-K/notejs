@@ -6,7 +6,7 @@ router.get('*', function(req, res){
         pageTitle: 'OOoops 404!'
     }
 
-    res.render('../views/global404.mus', pageData);
+    res.render('../views/404/global404.mus', pageData);
 });
 
 module.exports = router;

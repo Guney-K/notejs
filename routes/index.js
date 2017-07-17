@@ -6,7 +6,7 @@ router.get("/", function(req, res){
         pageTitle: 'Homepage!'
     }
 
-    res.render('../views/index.mus', pageData);
+    res.render('../views/home/index.mus', pageData);
 });
 
 module.exports = router;

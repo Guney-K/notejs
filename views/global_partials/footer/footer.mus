@@ -1,0 +1,4 @@
+    <p>{{>global_partials/footer/footer_copyrights}}</p>
+    {{>global_partials/body/append_injections}}
+    </body>
+</html>
